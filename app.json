@@ -19,11 +19,11 @@
     },
     "FORGE_CALLBACK_URL": {
       "description": "Callback URL of your Forge app, required for 3-legged OAuth",
-      "value": "https://<<YOUR HEROKU APP NAME HERE>>.herokuapp.com/api/forge/callback/oauth"
+      "value": "https://forgenotifierapp.herokuapp.com/api/forge/callback/oauth"
     },
     "FORGE_HOOK_CALLBACK_HOST": {
       "description": "Callback HOST for your application",
-      "value": "https://<<YOUR HEROKU APP NAME HERE>>.herokuapp.com"
+      "value": "https://forgenotifierapp.herokuapp.com"
     },
     "TWILIO_ACCOUNT_SID": {
       "description": "Twilio API Account SID"
