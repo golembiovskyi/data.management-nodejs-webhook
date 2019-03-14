@@ -12,10 +12,12 @@
   ],
   "env": {
     "FORGE_CLIENT_ID": {
-      "description": "Forge Client ID"
+      "description": "Forge Client ID",
+      "value": "VGVDAMNPhtITCVxqouI1aGEfoCrD8UTc"
     },
     "FORGE_CLIENT_SECRET": {
-      "description": "Forge Client Secret"
+      "description": "Forge Client Secret",
+      "value": "sAsOF6dKyPWqWAA5"
     },
     "FORGE_CALLBACK_URL": {
       "description": "Callback URL of your Forge app, required for 3-legged OAuth",
