@@ -19,33 +19,33 @@
 'use strict'; // http://www.w3schools.com/js/js_strict.asp
 
 module.exports = {
-  // Autodesk Forge configuration
-  forge: {
-    // Required scopes for your application on server-side
-    scope: ['data:read', 'data:write', 'data:create', 'data:search'],
-    // this this callback URL when creating your client ID and secret
-    callbackURL: process.env.FORGE_CALLBACK_URL || 'http://localhost:3000/api/forge/callback/oauth',
-    // credentials
-    credentials: {
-      client_id: process.env.FORGE_CLIENT_ID || '<replace with your consumer key>',
-      client_secret: process.env.FORGE_CLIENT_SECRET || '<replace with your consumer secret>'
+    // Autodesk Forge configuration
+    forge: {
+        // Required scopes for your application on server-side
+        scope: ['data:read', 'data:write', 'data:create', 'data:search'],
+        // this this callback URL when creating your client ID and secret
+        callbackURL: process.env.FORGE_CALLBACK_URL || 'https://forgenotifierapp.herokuapp.com/api/forge/callback/oauth',
+        // credentials
+        credentials: {
+            client_id: process.env.FORGE_CLIENT_ID || 'VGVDAMNPhtITCVxqouI1aGEfoCrD8UTc',
+            client_secret: process.env.FORGE_CLIENT_SECRET || 'sAsOF6dKyPWqWAA5'
+        },
+
+        hookCallbackHost: process.env.FORGE_WEBHOOK_URL
     },
 
-    hookCallbackHost : process.env.FORGE_WEBHOOK_URL
-  },
-
-  twilio: {
-    credentials : {
-      accountSid:  process.env.TWILIO_ACCOUNT_SID,
-      token:  process.env.TWILIO_TOKEN
+    twilio: {
+        credentials: {
+            accountSid: process.env.TWILIO_ACCOUNT_SID,
+            token: process.env.TWILIO_TOKEN
+        },
+        fromNumber: process.env.TWILIO_FROM_NUMER
     },
-    fromNumber:  process.env.TWILIO_FROM_NUMER
-  },
 
-  postmark: {
-    credentials: {
-      accountId: process.env.POSTMARK_ACCOUNT_ID
-    },
-    fromEmail: process.env.POSTMARK_FROM_EMAIL
-  }
+    postmark: {
+        credentials: {
+            accountId: process.env.POSTMARK_ACCOUNT_ID
+        },
+        fromEmail: process.env.POSTMARK_FROM_EMAIL
+    }
 };
