@@ -27,15 +27,15 @@
       "description": "Callback HOST for your application",
       "value": "https://forgenotifierapp.herokuapp.com"
     },
-    //"TWILIO_ACCOUNT_SID": {
-    //  "description": "Twilio API Account SID"
-    //},
-    //"TWILIO_TOKEN": {
-    //  "description": "Twilio API Token"
-    //},
-    //"TWILIO_FROM_NUMER": {
-    //  "description": "Twilio phone number used to send text messages"
-    //},
+    "TWILIO_ACCOUNT_SID": {
+      "description": "Twilio API Account SID"
+    },
+    "TWILIO_TOKEN": {
+      "description": "Twilio API Token"
+    },
+    "TWILIO_FROM_NUMER": {
+      "description": "Twilio phone number used to send text messages"
+    },
     "POSTMARK_ACCOUNT_ID": {
       "description": "Postmark API Account ID",
       "value": "b2b553ba-6c4a-45af-83dd-1bc5161444a8"
