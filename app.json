@@ -29,7 +29,7 @@
     },
     "POSTMARK_ACCOUNT_ID": {
       "description": "Postmark API Account ID",
-      "value": "b2b553ba-6c4a-45af-83dd-1bc5161444a8"
+      "value": "golembiovskyi"
     },
     "POSTMARK_FROM_EMAIL": {
       "description": "FROM email used to send emails via Postmark",
